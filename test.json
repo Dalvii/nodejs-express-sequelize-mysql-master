@@ -1,0 +1,29 @@
+[
+    {
+        "route": "/api/user",
+        "method": "POST",
+        "body": {
+            "username": "Theo",
+            "email": "test@test.fr",
+            "password": "test123"
+        }
+    },
+    {
+        "route": "/api/channel",
+        "method": "POST",
+        "body": {
+            "name": "General",
+            "type": "channel"
+        }
+    },
+    {
+        "route": "/api/message",
+        "method": "POST",
+        "body": {
+            "content": "Bonjour",
+            "sender": 1,
+            "channel": 1
+        }
+    }
+    
+]
